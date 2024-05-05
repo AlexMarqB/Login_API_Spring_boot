@@ -7,7 +7,6 @@ import org.com.login_api.dtos.RegisterRequestDTO;
 import org.com.login_api.dtos.ResponseDTO;
 import org.com.login_api.infra.security.TokenService;
 import org.com.login_api.repositories.UserRepository;
-import org.springframework.beans.BeanUtils;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.PostMapping;
